@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@font-face{
+    font-family:"Rubik";
+    src:url("fonts/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+    src:url("fonts/Rubik-VariableFont_wght.ttf");
+}
+
+:root{
+    --background-color-1:#8C6746;
+    --background-color-2:#BF9169;
+    --background-color-3:#b58b67;
+    --shadow:#261D0B;
+    --thick-detais:#A68549;
+
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Rubik";
+}
+header{
+    height: 20vh;
+    background-color:var(--background-color-3);
+}
+header > h1{
+    text-align:center;
+
+
+}
+header > img{
+    display:inline-block;
+    align-items: center;
+} 
+header > h1{
+    display:inline-block;
+    align-items: right;
+}
+main{
+    background-color:var(--background-color-2);
+}
+
+main > section{
+    height:10vh;
+    background-color:var(--background-color-1);
+    padding:10px;
+    margin:5px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
