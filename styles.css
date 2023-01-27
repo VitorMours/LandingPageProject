@@ -21,6 +21,9 @@
     padding:0px;
     font-family: "Rubik";
 }
+
+
+
 header{
     width: 100vw;
     height: 60px;
@@ -32,23 +35,79 @@ header{
     
     box-shadow: 0px 2px 3px var(--shadow);
 }
-header > nav > #menu-div{
+.material-symbols-outlined{
     display:left;
     float:left;
     box-sizing: border-box;
-    padding:1vh 1vw;
+    margin:1vh 1vw;
+    position:fixed;
+    font-size:40px !important;
+    padding:1px;
+    transition:  all .2s;
+    border-radius: 10px;
+
+
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 50,
+    'OPSZ' 50
 }
-header > nav > #menu-div > img{width: 45px;
+.material-symbols-outlined:hover{
+    transition-delay: 1s;
+    
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    transition-property: background-color, color;
+    transition-delay: .2s;
+    cursor: pointer;
 }
-header > nav > #menu-div > ul{display:none;
+.home{
+    position: fixed;
+    display:block;
+    top:60px;
+    left:-130px;
+
+    height: 100vh;
+    width: 130px;
+    background-color:var(--shadow);
+    text-align: center;
+    text-decoration:none;
 }
+.home > ul{
+    margin:10px;
+    text-decoration: none;
+    list-style: none;
+}
+.home > li{
+    text-decoration:none;
+    padding:2vh 5px;
+
+}
+.home > li:hover{
+    background-color: var(--background-color-3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 header > span{
     position:absolute;
     top:1vh;
     left:50%;
     transform: translate(-50%);
 }
-header > nav > ul{display:none;}
 
 main{   
     background-color: var(--background-color-2);
